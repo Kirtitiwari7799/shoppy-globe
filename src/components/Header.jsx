@@ -15,8 +15,8 @@ function Header() {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        padding: "20px",
-        background: "#222",
+        padding: "15px 30px",
+        background: "#1e293b",
         color: "white",
       }}
     >
@@ -27,7 +27,7 @@ function Header() {
           textDecoration: "none",
         }}
       >
-        <h2>ShoppyGlobe</h2>
+        <h2>🛒 ShoppyGlobe</h2>
       </Link>
 
       <input
