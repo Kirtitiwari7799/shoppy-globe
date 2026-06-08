@@ -4,16 +4,18 @@ function ProductCard({ product }) {
   return (
     <div
       style={{
-        border: "1px solid #ccc",
-        padding: "10px",
+        border: "1px solid #ddd",
+        borderRadius: "10px",
+        padding: "15px",
         margin: "10px",
         width: "250px",
+        textAlign: "center",
       }}
     >
       <img
         src={product.thumbnail}
         alt={product.title}
-        width="150"
+        width="180"
       />
 
       <h3>{product.title}</h3>
