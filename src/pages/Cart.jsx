@@ -18,7 +18,7 @@ function Cart() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Shopping Cart</h1>
+      <h1>🛒 Shopping Cart</h1>
 
       {cartItems.length === 0 ? (
         <h3>Your cart is empty.</h3>
@@ -28,9 +28,11 @@ function Cart() {
             <div
               key={item.id}
               style={{
-                border: "1px solid #ccc",
+                border: "1px solid #ddd",
+                borderRadius: "10px",
+                backgroundColor: "#f8fafc",
                 margin: "10px",
-                padding: "10px",
+                padding: "15px",
               }}
             >
               <h3>{item.title}</h3>
